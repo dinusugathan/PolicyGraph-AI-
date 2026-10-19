@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar Travels PolicyGraph AI | LangChain + LangGraph + LangSmith</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-logo">✈️</div>
+                <div class="brand-info">
+                    <h2>Akbar Travels</h2>
+                    <span class="badge-graph">PolicyGraph AI</span>
+                </div>
+            </div>
+
+            <div class="tech-pills">
+                <span class="tech-pill lc">🦜 LangChain 1.4</span>
+                <span class="tech-pill lg">🕸️ LangGraph 1.2</span>
+                <span class="tech-pill ls">🔭 LangSmith Ready</span>
+            </div>
+
+            <div class="control-group">
+                <label for="channel-select">Audience Channel</label>
+                <select id="channel-select" class="custom-select">
+                    <option value="B2C" selected>B2C Customer Portal</option>
+                    <option value="B2B">B2B Sub-Agent Network</option>
+                    <option value="ALL">Enterprise (All Channels)</option>
+                </select>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Test Scenarios</h3>
+                <div class="scenario-buttons">
+                    <button class="scenario-btn" data-query="What is the voluntary flight cancellation fee for domestic bookings?" data-channel="B2C">
+                        <span class="sc-icon">🎟️</span> B2C Cancellation Fee
+                    </button>
+                    <button class="scenario-btn" data-query="Calculate my net refund: ticket paid was 6500 and airline penalty is 2200" data-channel="B2C">
+                        <span class="sc-icon">🧮</span> B2C Refund Calculation
+                    </button>
+                    <button class="scenario-btn" data-query="What is the B2B sub-agent cancellation service charge and wallet credit timeline?" data-channel="B2B">
+                        <span class="sc-icon">🏢</span> B2B Sub-Agent Fee
+                    </button>
+                    <button class="scenario-btn" data-query="Calculate net refund for sub-agent: ticket was 8000 and airline penalty is 3000" data-channel="B2B">
+                        <span class="sc-icon">💼</span> B2B Refund Math
+                    </button>
+                    <button class="scenario-btn" data-query="My mother was hospitalized, can I get a medical emergency waiver?" data-channel="B2C">
+                        <span class="sc-icon">🏥</span> Compassionate Waiver
+                    </button>
+                    <button class="scenario-btn" data-query="I will file a formal lawsuit in consumer court for this unresolved dispute!" data-channel="B2C">
+                        <span class="sc-icon">⚠️</span> Grievance Escalation
+                    </button>
+                    <button class="scenario-btn" data-query="What is the check-in baggage allowance for Air India Express to Gulf?" data-channel="ALL">
+                        <span class="sc-icon">🧳</span> Baggage Guidelines
+                    </button>
+                </div>
+            </div>
+
+            <div class="observability-card">
+                <div class="obs-header">
+                    <span class="live-dot"></span>
+                    <h4>LangSmith Tracing</h4>
+                </div>
+                <div id="obs-status-text" class="obs-body">Checking status...</div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container">
+            <header class="chat-header">
+                <div>
+                    <h1>Enterprise Policy & Dispute Orchestrator</h1>
+                    <p class="subtitle">Stateful Multi-Agent RAG with Deterministic Arithmetic & Tier 3 Escalation</p>
+                </div>
+                <div class="header-badges">
+                    <span id="active-channel-badge" class="channel-badge">B2C Customer</span>
+                    <span class="status-badge">● Engine Online</span>
+                </div>
+            </header>
+
+            <!-- Graph Flow Visualization Bar -->
+            <div class="graph-pipeline-visual">
+                <div class="graph-step" id="step-router">
+                    <span class="step-icon">🔀</span>
+                    <span class="step-label">router_node</span>
+                </div>
+                <div class="arrow">→</div>
+                <div class="graph-step" id="step-retriever">
+                    <span class="step-icon">📚</span>
+                    <span class="step-label">retriever_node</span>
+                </div>
+                <div class="arrow">→</div>
+                <div class="graph-step" id="step-agent">
+                    <span class="step-icon">🤖</span>
+                    <span class="step-label">policy / calc</span>
+                </div>
+                <div class="arrow">→</div>
+                <div class="graph-step" id="step-guardrail">
+                    <span class="step-icon">🛡️</span>
+                    <span class="step-label">guardrail_node</span>
+                </div>
+            </div>
+
+            <!-- Messages Area -->
+            <div id="chat-messages" class="chat-messages">
+                <div class="message assistant-message welcome-message">
+                    <div class="msg-header">
+                        <span class="avatar">🦜</span>
+                        <strong>Akbar Travels PolicyGraph AI</strong>
+                        <span class="msg-time">Just now</span>
+                    </div>
+                    <div class="msg-content">
+                        <p>Welcome! I am the <strong>Akbar Travels Multi-Agent Policy Support System</strong> powered by <strong>LangChain</strong> and <strong>LangGraph</strong>.</p>
+                        <p>I can provide certified policy clauses, compute exact refund deductions with mathematical certainty, or route severe disputes to the Senior Resolution Desk.</p>
+                        <p>Select a scenario from the left or type your query below.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Input Box -->
+            <form id="chat-form" class="chat-input-bar">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="Ask about cancellation fees, refund calculations, baggage limits, or policies..."
+                    autocomplete="off"
+                    required
+                />
+                <button type="submit" id="send-btn" class="send-btn">
+                    <span>Ask Graph</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </form>
+        </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

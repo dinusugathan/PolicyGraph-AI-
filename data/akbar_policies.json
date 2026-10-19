@@ -1,0 +1,86 @@
+[
+  {
+    "id": "POL-CANCEL-001",
+    "category": "Flight Cancellation",
+    "channel": "B2C",
+    "title": "B2C Domestic Flight Voluntary Cancellation Policy",
+    "content": "For B2C domestic flight bookings made through akbartravels.com, voluntary cancellation requests must be raised at least 2 hours before scheduled departure. Cancellation charges include the airline cancellation penalty as per the fare class booked plus a non-refundable Akbar Travels service fee of INR 350 per passenger per sector. Refunds are processed back to the original payment method within 7-10 business days. For bookings made via credit card, the refund timeline depends on the issuing bank (typically 5-7 billing cycles). Passengers who do not cancel and fail to board (No-Show) forfeit the entire ticket value with no refund eligibility."
+  },
+  {
+    "id": "POL-CANCEL-002",
+    "category": "Flight Cancellation",
+    "channel": "B2B",
+    "title": "B2B Agent Sub-Agent Flight Cancellation Policy",
+    "content": "For B2B sub-agent bookings, cancellation must be initiated through the Akbar Travels B2B portal or via the dedicated agent helpdesk. The cancellation fee structure is: Airline penalty as per fare rules plus Akbar Travels B2B processing fee of INR 200 per passenger per sector (reduced from B2C INR 350). Credit is issued to the agent's Akbar Travels wallet within 48-72 hours. Sub-agents must communicate cancellation policies clearly to end-customers. Disputed cancellations require submission of PNR, ticket number, and passenger consent documentation within 24 hours."
+  },
+  {
+    "id": "POL-REFUND-001",
+    "category": "Refunds",
+    "channel": "ALL",
+    "title": "Standard Refund Processing Timeline & Methods",
+    "content": "Refund processing timelines at Akbar Travels depend on the payment method: Credit Card refunds take 7-15 business days from approval, Debit Card refunds take 5-10 business days, Net Banking refunds take 3-7 business days, UPI refunds are processed within 24-48 hours, and Wallet (Akbar Pay) refunds are instant. All refunds are subject to airline-approved refund amounts minus applicable service charges. Partial refunds for partially used tickets require separate claim submission with boarding pass evidence. Tax refunds (GST component) are processed separately and may take up to 30 days."
+  },
+  {
+    "id": "POL-REFUND-002",
+    "category": "Refunds",
+    "channel": "ALL",
+    "title": "Medical Emergency Refund & Compassionate Waiver Policy",
+    "content": "In cases of documented medical emergencies (hospitalization, surgery, or death in immediate family), Akbar Travels applies the Compassionate Waiver Policy. The agency service fee (INR 350 B2C / INR 200 B2B) is fully waived. Required documentation includes: hospital admission certificate or death certificate, valid government photo ID of the passenger, and the original booking PNR. Claims must be submitted within 15 days of the scheduled travel date. Airline penalties may still apply but Akbar Travels will advocate on behalf of the passenger for maximum waiver consideration with the carrier."
+  },
+  {
+    "id": "POL-BAGGAGE-001",
+    "category": "Baggage",
+    "channel": "ALL",
+    "title": "Domestic & International Baggage Allowance Guidelines",
+    "content": "Baggage allowances are determined by the operating airline and fare class. General guidelines for tickets booked through Akbar Travels: IndiGo domestic economy allows 15kg check-in and 7kg cabin baggage. Air India domestic economy allows 25kg check-in and 8kg cabin baggage. International flights to Gulf (UAE, Saudi Arabia, Kuwait) on Air India Express typically allow 30kg check-in baggage for economy class. Emirates economy to Dubai allows 30kg check-in. Extra baggage can be pre-purchased through the airline website or at the airport counter (charges apply). Akbar Travels does not handle baggage claims or damage disputes directly; passengers must file claims with the operating airline within 7 days of arrival."
+  },
+  {
+    "id": "POL-BAGGAGE-002",
+    "category": "Baggage",
+    "channel": "B2B",
+    "title": "Excess Baggage Booking for Gulf Corridor B2B Agents",
+    "content": "B2B sub-agents booking Gulf corridor flights (India to UAE, KSA, Kuwait, Oman, Qatar, Bahrain) can pre-purchase excess baggage at discounted airline-contracted rates through the Akbar Travels B2B portal. Pre-purchased excess baggage is up to 40% cheaper than airport counter rates. Rates vary by airline: Air India Express offers 10kg add-on blocks (INR 1,200 per block domestic, INR 2,500 per block international). IndiGo offers 5kg, 10kg, 15kg, and 20kg add-on slabs. Excess baggage must be purchased at least 6 hours before departure. Post-departure excess baggage claims are not eligible for the contracted discounted rate."
+  },
+  {
+    "id": "POL-RESCHEDULE-001",
+    "category": "Rescheduling",
+    "channel": "ALL",
+    "title": "Flight Date Change & Rescheduling Policy",
+    "content": "Flight rescheduling (date/time change) on Akbar Travels bookings is subject to airline fare rules and availability. Rescheduling charges include: Airline date change fee (varies by carrier and fare class, typically INR 500-3500 for domestic and USD 50-150 for international) plus any fare difference if the new flight has a higher fare. Akbar Travels charges an additional rescheduling service fee of INR 250 per passenger per sector. Rescheduling is not available for non-refundable/non-changeable promotional fares. Same-day flight changes within 4 hours of departure are subject to airline discretion and may incur premium charges."
+  },
+  {
+    "id": "POL-LOYALTY-001",
+    "category": "Loyalty & Rewards",
+    "channel": "B2C",
+    "title": "Akbar Rewards Loyalty Program",
+    "content": "Akbar Rewards is the loyalty program for B2C customers booking through akbartravels.com and the Akbar Travels mobile app. Members earn reward points on every booking: Domestic flights earn 2 points per INR 100 spent, International flights earn 3 points per INR 100 spent, Hotels earn 5 points per INR 100 spent, and Bus/Train bookings earn 1 point per INR 100 spent. Points can be redeemed at a rate of 1 point = INR 0.25 towards future bookings. Minimum redemption threshold is 500 points (INR 125). Points expire after 12 months of account inactivity. Platinum members (annual spend > INR 2,00,000) receive complimentary priority customer support and exclusive fare deals."
+  },
+  {
+    "id": "POL-INSURANCE-001",
+    "category": "Travel Insurance",
+    "channel": "ALL",
+    "title": "Travel Insurance & Trip Protection Plans",
+    "content": "Akbar Travels offers optional travel insurance in partnership with ICICI Lombard and Bajaj Allianz. Plans include: Basic Plan (INR 199 domestic / INR 499 international) covering trip cancellation up to INR 25,000 and medical emergency up to INR 1,00,000. Premium Plan (INR 599 domestic / INR 1,499 international) covering trip cancellation up to INR 1,00,000, medical emergency up to INR 5,00,000, baggage loss up to INR 25,000, and flight delay compensation of INR 1,000 per 6-hour delay. Insurance must be purchased at the time of booking and cannot be added post-booking. Claims are processed directly by the insurance partner through their dedicated claims portal."
+  },
+  {
+    "id": "POL-PAYMENT-001",
+    "category": "Payment & Billing",
+    "channel": "ALL",
+    "title": "Accepted Payment Methods & EMI Options",
+    "content": "Akbar Travels accepts the following payment methods for B2C bookings: Credit Cards (Visa, MasterCard, American Express, RuPay), Debit Cards, Net Banking (60+ banks), UPI (Google Pay, PhonePe, Paytm), Akbar Pay Wallet, and EMI options. No-Cost EMI is available on HDFC, ICICI, SBI, and Axis Bank credit cards for bookings above INR 5,000 (3-month and 6-month tenures). Standard EMI with interest is available for 9-month and 12-month tenures. B2B sub-agents transact via their pre-funded Akbar Travels credit wallet with a settlement cycle of T+3 business days. Corporate B2E clients are invoiced on a monthly billing cycle with NET-30 payment terms."
+  },
+  {
+    "id": "POL-VISA-001",
+    "category": "Visa Assistance",
+    "channel": "ALL",
+    "title": "Visa Application Assistance Services",
+    "content": "Akbar Travels provides visa application assistance for popular destinations. Services include: Document checklist preparation, application form filling assistance, appointment scheduling at VFS/BLS centers, and travel itinerary preparation for visa submission. Visa assistance service fee: UAE Tourist Visa INR 500, Schengen Visa INR 2,000, US/UK Visa INR 1,500, Singapore Visa INR 800. Akbar Travels acts as a facilitator and does NOT guarantee visa approval. Visa processing times are determined by the respective embassy/consulate. Refund of visa service fees is not available if the visa is rejected. Customers are advised to apply for visas at least 3-4 weeks before the planned travel date."
+  },
+  {
+    "id": "POL-COMPLAINT-001",
+    "category": "Customer Support",
+    "channel": "ALL",
+    "title": "Customer Complaint Escalation & Resolution Policy",
+    "content": "Akbar Travels follows a 3-tier complaint resolution process. Tier 1: Initial complaints are handled by the customer support team via phone (1800-103-1111, toll-free), email (support@akbartravels.com), or live chat within 24 hours. Tier 2: Unresolved complaints are escalated to the Senior Resolution Team with a 48-hour turnaround. Tier 3: If still unresolved, complaints are escalated to the Grievance Officer (grievance@akbartravels.com) with a mandatory resolution within 7 business days as per the Consumer Protection Act 2019. B2B agent disputes are handled through the dedicated B2B relationship manager with priority SLA of 4 business hours."
+  }
+]
